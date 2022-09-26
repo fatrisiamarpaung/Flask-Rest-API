@@ -12,7 +12,7 @@ def home():
     return render_template('index.html')
 
 # WE ARE A SERVER
-# POST - used to receive data
+# POST - used to receive data, send data to the server
 # GET - used to send data back only
 
 # POST /store data: {name:}
